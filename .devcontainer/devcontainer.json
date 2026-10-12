@@ -9,5 +9,6 @@
       "label": "noVNC Desktop",
       "onAutoForward": "openBrowser"
     }
-  }
+  },
+  "postCreateCommand": "vncserver :1 -geometry 1440x768 && fluxbox &"
 }
